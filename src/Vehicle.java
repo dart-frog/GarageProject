@@ -18,15 +18,19 @@ public class Vehicle {
 	//range
 	int range; 
 	
-	public String getMake(String myMake){
+	public void setMake (String myMake){
 		make = myMake; 
-		return make; 
 	}
-	public String getModel(String myModel){
+	public void setModel (String myModel){
 		model = myModel;
-		return model;
 	}
-	public int getYear (String myYear){
-		
+	public void setYear (int myYear){
+		year = myYear;
+	}
+	public void setRange (int myRange){
+		range = myRange;
+	}
+	public void setRadius (int myRadius){
+		radius = myRadius; 
 	}
 }
