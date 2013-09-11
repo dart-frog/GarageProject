@@ -13,5 +13,11 @@ public class ElectricCar extends Car {
 		setRadius(myRadius);
 		
 	}
+	public double getBattery(){
+		return battery;
+	}
+	public double getMpk(){
+		return mpk; 
+	}
 	
 }

@@ -33,4 +33,16 @@ public class Vehicle {
 	public void setRadius (int myRadius){
 		radius = myRadius; 
 	}
+	public int getRadius (){
+		return radius;
+	}
+	public int getRange (){
+		return range; 
+	}
+	public int getYear (){
+		return year;
+	}
+	public String getMake (){
+		return make;
+	}
 }

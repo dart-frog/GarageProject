@@ -3,7 +3,7 @@ public class Car extends Vehicle {
 	int doors; 
 	
 	public void setDoors(int myDoors){
-		int doors = myDoors; 
+		doors = myDoors; 
 	}
 	public int getDoors(){
 		return doors; 

@@ -2,8 +2,14 @@ import java.util.Scanner;
 
 
 public class MyGarage {
-	Scanner console = new Scanner(System.in);
-	public void static reciever(){
+	
+	static Scanner console = new Scanner(System.in);
+	public static void main (String Args[]){
+		
+		
+	}
+	
+	public static void reciever(){
         String answer = console.next();
     	if (answer.equalsIgnoreCase("Boat")){
     		addVehicle("Boat");
@@ -15,6 +21,9 @@ public class MyGarage {
     public static void addVehicle(String type){ 
     	System.out.println("make");
     	String yourMake = console.next();
+    	String yourModel = console.next();
+    	int yourRange = console.nextInt();
+    	int yourYear = console.nextInt();
     	
     }
     
