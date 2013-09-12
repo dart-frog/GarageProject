@@ -25,6 +25,7 @@ public class ElectricCarTest {
 		assertEquals("range expected 8", range, t.getRange());
 		assertEquals("year expected 1996", year, t.getYear());
 		assertEquals("make expected ford", make, t.getMake());
+		assertEquals("model expected focus", model, t.getModel());
 	}
 
 }
