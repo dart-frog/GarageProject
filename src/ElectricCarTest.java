@@ -17,7 +17,8 @@ public class ElectricCarTest {
 		int range  = 8;
 		int radius = 360;
 		//double myBattery, double myMpk,int myDoors, String myMake, String myModel, int myYear,int myRange, int myRadius
-		ElectricCar t = new ElectricCar(battery , mpk, doors, make, model, year, range, radius );
+		ElectricCar t = createTestCar(battery, mpk, doors, make, model, year,
+				range, radius);
 		assertEquals(battery, t.getBattery(), 0.0);
 		assertEquals(mpk, t.getMpk(), 0.0);
 		assertEquals("doors expected 6", doors, t.getDoors());
@@ -27,5 +28,15 @@ public class ElectricCarTest {
 		assertEquals("make expected ford", make, t.getMake());
 		assertEquals("model expected focus", model, t.getModel());
 	}
+	private ElectricCar createTestCar(double battery, double mpk, int doors,
+			String make, String model, int year, int range, int radius) {
+		ElectricCar t = new ElectricCar(battery , mpk, doors, make, model, year, range, radius );
+		return t;
+	}
+	@Test
+	public void SettersTest(){
+		
+	}
+	
 
 }
