@@ -1,5 +1,8 @@
 
 public class Vehicle {
+	
+	//abstract
+	
 	//make
 	
 	String make;
