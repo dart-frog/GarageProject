@@ -6,6 +6,5 @@ public class Boat extends Vehicle {
 		setYear(myYear);
 		setRange(myRange);
 		setRadius(myRadius);
-		
 	}
 }
