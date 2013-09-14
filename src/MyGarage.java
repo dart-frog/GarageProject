@@ -5,7 +5,7 @@ public class MyGarage {
 	
 	static Scanner console = new Scanner(System.in);
 	public static void main (String Args[]){
-		new ArrayList();
+		
 		
 	}
 	
